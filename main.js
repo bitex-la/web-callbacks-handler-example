@@ -79,6 +79,19 @@ const Handlers = {
       la situación.`);
   },
   concierge_request_receipt_created: (ev) => {
+    // En este evento recibimos todo un Request
   },
+  concierge_request_credit_note_created: (ev) => {
+    // En este evento recibimos todo un Request
+  },
+  withdrawal_instruction_created: (ev) => {
+    // En este evento recibimos uno withdrawal_instruction
+  },
+  withdrawal_instruction_updated: (ev) => {
+    // En este evento recibimos uno withdrawal_instruction
+  },
+  withdrawal_instruction_destroyed: (ev) => {
+    // En este evento recibimos uno withdrawal_instruction
+  }
 }
 
